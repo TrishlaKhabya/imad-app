@@ -14,6 +14,7 @@ button.onclick=function()
             }
     };
     
-    request.open('GET',);
+    request.open('GET','http://trishlakhabya.imad.hasura-app.io/counter',true);
+    request.send('null');
     
 };
